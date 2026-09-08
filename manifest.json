@@ -2351,6 +2351,40 @@
         "RemoteSha": "0.7.1"
       }
     },
+    "waiter": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "waiter",
+        "Title": "Loading Screen for 'Shiny'",
+        "Version": "0.2.5.1",
+        "Date": "2022-01-02",
+        "Authors@R": "c(\n    person(given = \"John\",\n           family = \"Coene\",\n           role = c(\"aut\", \"cre\"),\n           email = \"jcoenep@gmail.com\"),\n    person(given = \"Jinhwan\",\n           family = \"Kim\",\n           role = \"ctb\",\n           email = 'hwanistic@gmail.com'),\n    person(given = \"Victor\",\n           family = \"Granda\",\n           role = c(\"ctb\"),\n           email = \"victorgrandagarcia@gmail.com\",\n           comment = c(ORCID = \"0000-0002-0469-1991\")))",
+        "Description": "Full screen and partial loading screens for 'Shiny' with spinners, progress bars, and notifications.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://waiter.john-coene.com/,\nhttps://github.com/JohnCoene/waiter",
+        "BugReports": "https://github.com/JohnCoene/waiter/issues",
+        "Encoding": "UTF-8",
+        "Imports": "R6, shiny, htmltools",
+        "RoxygenNote": "7.3.3",
+        "Suggests": "httr, knitr, packer, rmarkdown",
+        "VignetteBuilder": "knitr",
+        "NeedsCompilation": "no",
+        "Packaged": "2025-09-23 11:45:51 UTC; hornik",
+        "Author": "John Coene [aut, cre],\n  Jinhwan Kim [ctb],\n  Victor Granda [ctb] (ORCID: <https://orcid.org/0000-0002-0469-1991>)",
+        "Maintainer": "John Coene <jcoenep@gmail.com>",
+        "Repository": "RSPM",
+        "Date/Publication": "2025-09-23 12:02:29 UTC",
+        "Built": "R 4.5.0; ; 2025-09-24 04:26:31 UTC; windows",
+        "RemoteType": "standard",
+        "RemoteRef": "waiter",
+        "RemotePkgRef": "waiter",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+        "RemoteReposName": "CRAN",
+        "RemotePkgPlatform": "x86_64-w64-mingw32",
+        "RemoteSha": "0.2.5.1"
+      }
+    },
     "waldo": {
       "Source": "CRAN",
       "Repository": "https://packagemanager.posit.co/cran/latest",
@@ -2562,7 +2596,7 @@
   },
   "files": {
     ".Rprofile": {
-      "checksum": "b05352ae6df9cabd3ee180dbd9cc9452"
+      "checksum": "53b3ed8dff1f61f04810cb365e00989e"
     },
     "app.R": {
       "checksum": "d4103b4dcc8bebfefd99294ba6125f11"
@@ -9321,7 +9355,7 @@
       "checksum": "4d3c9fec2be5271738e1c29b246860ed"
     },
     "renv.lock": {
-      "checksum": "4fcb0423b1a671dfd014e140f348b54c"
+      "checksum": "70edb9ec00291261e1ce842366700d4d"
     },
     "rhino.yml": {
       "checksum": "4f8295c6437069d07ae84698aca26c76"
